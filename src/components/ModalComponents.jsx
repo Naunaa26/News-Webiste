@@ -41,16 +41,7 @@ export default function ModalComponents({ news }) {
                   className="h-screen"
                 ></LoadingIframe>
               </ModalBody>
-              <ModalFooter>
-                <Button
-                  color="danger"
-                  variant="light"
-                  onPress={onClose}
-                  className="bg-white hover:text-white"
-                >
-                  Close
-                </Button>
-              </ModalFooter>
+              <ModalFooter></ModalFooter>
             </>
           )}
         </ModalContent>
